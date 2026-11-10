@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Holiday Packages | International, Domestic & Honeymoon – Modern Holidays</title>
+  <meta name="description" content="Browse international and domestic holiday packages — Bali, Thailand, Singapore, Maldives, Dubai, Switzerland, Kerala, Kashmir and more. Prices on request.">
+  <meta name="theme-color" content="#061a2e">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fraunces:ital,opsz,wght@1,9..144,500;1,9..144,600&family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="packages">
+  <div id="site-header"></div>
+  <main id="main">
+    <section class="page-hero">
+      <div class="hero-bg" data-parallax><img src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=2000&q=75" alt="" fetchpriority="high"></div>
+      <div class="container">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span class="sep">/</span><span aria-current="page">Holiday Packages</span></nav>
+        <p class="eyebrow">Holiday Packages</p>
+        <h1>Handpicked Holiday <span class="accent">Experiences</span></h1>
+        <p class="lead">Beautiful places. Thoughtfully planned journeys. Every package can be tailored to your dates and budget.</p>
+      </div>
+      <svg class="wave" viewBox="0 0 1440 150" preserveAspectRatio="none" aria-hidden="true"><path class="w2" d="M0 70c180-50 360-60 560-20s420 70 620 30 220-60 260-70v140H0z"/><path d="M0 100c220-60 430-70 640-30s400 60 560 30c120-22 200-50 240-60v110H0z"/></svg>
+    </section>
+    <section class="section" style="padding-top:30px">
+      <div class="container">
+        <form class="filter-bar" id="pkgFilters" role="search" aria-label="Filter holiday packages">
+          <div class="f-search"><label for="f-q">Search</label><input class="input" id="f-q" name="q" type="search" placeholder="Destination, package or experience"></div>
+          <div><label for="f-region">Region</label><select class="select" id="f-region" name="region"></select></div>
+          <div><label for="f-duration">Duration</label><select class="select" id="f-duration" name="duration"><option value="">Any length</option><option value="short">Up to 4 days</option><option value="mid">5–6 days</option><option value="long">7+ days</option></select></div>
+          <div><label for="f-budget">Budget</label><select class="select" id="f-budget" name="budget"><option value="">Any budget</option><option value="value">Value</option><option value="mid">Mid-range</option><option value="premium">Premium</option></select></div>
+          <div><label for="f-type">Travel Type</label><select class="select" id="f-type" name="type"><option value="">All types</option><option>Honeymoon</option><option>Family</option><option>Couples</option><option>Groups</option><option>Luxury</option></select></div>
+          <div class="f-reset"><button class="btn btn-ghost btn-block" type="button" data-reset>Reset</button></div>
+          <div style="grid-column:1/-1" class="chips-row" role="group" aria-label="Holiday scope">
+            <button type="button" class="chip-btn" data-scope="">All Holidays</button>
+            <button type="button" class="chip-btn" data-scope="international">International</button>
+            <button type="button" class="chip-btn" data-scope="domestic">Domestic (India)</button>
+          </div>
+        </form>
+        <div class="results-meta"><span data-results aria-live="polite">Loading packages…</span><span><i data-icon="info"></i> Prices are shared on request based on dates &amp; availability.</span></div>
+        <div class="pkg-grid" data-pkg-grid data-filters="pkgFilters"></div>
+      </div>
+    </section>
+    <section class="section bg-deep section-tight">
+      <div class="container center">
+        <div class="section-head center reveal" style="margin-bottom:28px"><h2>Prefer Something Fully Custom?</h2><p>Share your dates, budget and interests — we’ll design a holiday just for you.</p></div>
+        <div class="hero-ctas" style="justify-content:center"><a class="btn btn-gold" href="contact.html#enquiry">Plan My Custom Trip <i data-icon="arrow-right"></i></a><a class="btn btn-wa" data-contact="whatsapp" href="#"><i data-icon="whatsapp"></i> WhatsApp Us</a></div>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
